@@ -6,11 +6,11 @@ import { ThemeProvider } from "@/components/theme-provider";
 const spaceGrotesk = Space_Grotesk({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://localhost:3000"),
+  metadataBase: new URL("https://portfolio-demo-lol.netlify.app"),
 
   title: "Siddhant Kumar",
   authors: {
-    name: "chensokheng",
+    name: "Siddhant Kumar",
   },
 
   description:
@@ -19,12 +19,16 @@ export const metadata: Metadata = {
     title: "Siddhant Kumar",
     description:
       "Based in India, I am a full stack developer with a passion for building web applications.",
-    url: "https://localhost:3000",
+    url: "https://portfolio-demo-lol.netlify.app",
     siteName: "Siddhant Kumar",
     images: "/Spirit Blossom Sett.png",
     type: "website",
   },
-  keywords: ["daily web coding", "chensokheng", "dailywebcoding"],
+  keywords: [
+    "Portfolio Demo From Sid",
+    "Siddhant Kumar",
+    "Sid's Next.js Website",
+  ],
 };
 
 export default function RootLayout({
