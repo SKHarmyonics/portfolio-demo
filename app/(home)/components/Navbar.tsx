@@ -6,7 +6,7 @@ import { cn } from "@/lib/utils";
 export default function Navbar({ className }: { className?: string }) {
   const socials = [
     {
-      link: "https://github.com/siddhant-kumar",
+      link: "https://github.com/SKHarmyonics",
       label: "Github",
       Icon: SiGithub,
     },
